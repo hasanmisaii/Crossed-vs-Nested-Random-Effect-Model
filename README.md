@@ -34,7 +34,7 @@ jupyter notebook crossed_vs_nested_python.ipynb
 ### R Environment
 ```r
 # Install required packages listed in requirements_R.txt
-install.packages(c("lme4", "ggplot2", "dplyr", "tidyr"))
+install.packages(c("nlme", "lme4", "ggplot2", "dplyr", "tidyr"))
 # Open crossed_vs_nested_R.ipynb in Jupyter with R kernel
 ```
 
