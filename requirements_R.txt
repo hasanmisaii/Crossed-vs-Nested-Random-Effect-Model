@@ -1,0 +1,30 @@
+# R Dependencies for Crossed vs Nested Random Effects Models
+#
+# Install these packages in R using:
+# install.packages(c("lme4", "ggplot2", "dplyr", "tidyr", "broom.mixed", "lattice", "gridExtra", "sjPlot", "performance"))
+
+# Core mixed effects modeling
+lme4        # Linear mixed-effects models using Eigen and S4
+
+# Data manipulation and visualization  
+ggplot2     # Grammar of graphics plotting
+dplyr       # Data manipulation grammar
+tidyr       # Tidy data principles
+gridExtra   # Arranging plots
+
+# Model diagnostics and output
+broom.mixed # Tidy model outputs for mixed models
+sjPlot      # Plotting and table functions for mixed models
+performance # Model performance and diagnostics
+lattice     # Additional plotting functions
+
+# Optional advanced packages:
+# brms        # Bayesian mixed models
+# glmmTMB     # Generalized linear mixed models with various extensions
+# MCMCglmm    # MCMC-based mixed models
+# nlme        # Alternative mixed models package
+# emmeans     # Estimated marginal means
+# lmerTest    # Tests for mixed models
+
+# For Jupyter notebook with R kernel:
+# IRkernel    # R kernel for Jupyter (install via: devtools::install_github("IRkernel/IRkernel"))
